@@ -42,12 +42,12 @@ function buildCharts(sample) {
         }
       };
   
-      let data = [bubble];
+      let dataBubble = [bubble];
       let layout = {
         title: "Belly Button Bacteria",
         xaxis: {title: "OTU ID"}
       };
-      Plotly.newPlot("bubble", data, layout);
+      Plotly.newPlot("bubble", dataBubble, layout);
 
 
     // @TODO: Build a Pie Chart
